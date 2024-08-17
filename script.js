@@ -1,4 +1,6 @@
-
+setTimeout(()=>{
+    alert("Click on respective icons to check them")
+},2500);
 
 const currTime = () =>{
     let curTime = new Date().toLocaleTimeString();
@@ -7,8 +9,8 @@ const currTime = () =>{
 }
 
 
-// currTime();
-// setInterval(currTime,1000);
+currTime();
+setInterval(currTime,1000);
 
 const clock =() =>{
     currTime();
